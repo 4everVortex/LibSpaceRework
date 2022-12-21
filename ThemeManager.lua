@@ -5,9 +5,9 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Default Theme'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"ff003b","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
-		['Legacy Theme'] 		= { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"7e48a3","BackgroundColor":"232323","OutlineColor":"141414"}') },
-		['Extreme Theme'] 	= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"191925","AccentColor":"6759b3","BackgroundColor":"16161f","OutlineColor":"323232"}') },
+		['SpaceHeart Rework'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"ff003b","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
+		['SpaceHeart Old'] 		= { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"000f1e","AccentColor":"00ffbb","BackgroundColor":"050514","OutlineColor":"262626"}') },
+		['Legacy Theme'] 		= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"7e48a3","BackgroundColor":"232323","OutlineColor":"141414"}') },
 	}
 
 	function ThemeManager:ApplyTheme(theme)
